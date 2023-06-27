@@ -114,6 +114,7 @@ let countdown = setInterval(() => {
 
   if (time == 0) {
     clearInterval(countdown);
+    alert("Time's up!");
     location.reload();
   }
 }, 1000);
